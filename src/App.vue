@@ -1,16 +1,14 @@
 <template>
   <div class="wrapper">
     <the-nav></the-nav>
-    <the-kanban></the-kanban>
+    <router-view></router-view>
   </div>
 </template>
 
 <script type="module">
-import TheKanban from './components/sections/TheKanban.vue';
 import TheNav from './components/UI/TheNav.vue';
 export default {
   components: {
-    TheKanban,
     TheNav,
   }
 }
