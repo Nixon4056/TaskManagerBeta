@@ -3,7 +3,7 @@
     <div class="logo-name-container">
       <div :style="{'background-color': color}" class="responsible-logo"><h1>{{ responsibleShorthand }}</h1></div>
       <div class="name">
-        <h1>12/USL/22/07</h1>
+        <h1>{{ id }}/USL/22/07</h1>
         <h2>{{ taskName }}</h2>
       </div>
     </div>

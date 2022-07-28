@@ -119,7 +119,6 @@ export default {
   background-color: rgba(238, 238, 238, 0.4);
   margin: 0.7rem 0;
   border-radius: 30px;
-
 }
 nav{
   width: 80px;
@@ -164,18 +163,19 @@ ul{
   align-content: center;
   flex-direction: column;
 }
-ul li{
-  width: 70%;
+
+li{
   display: flex;
   justify-content: center;
   align-content: center;
   cursor: pointer;
+  margin: 0;
 }
 li:hover{
   transform: scale(1.03);
   transition: 0.3s all;
 }
-ul li h2{
+li h2{
   margin-left: 1.3rem;
   color: #eeeeee;
   font-weight: 400;

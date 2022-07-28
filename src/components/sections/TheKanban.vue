@@ -136,7 +136,7 @@ export default {
         const results = [];
         for (const id in data) {
           results.push({
-            id: id,
+            id: data[id].id,
             taskName: data[id].name,
             company: data[id].company,
             date: data[id].date,
@@ -148,6 +148,7 @@ export default {
           });
         }
         this.tasks = results;
+        console.log(results)
       }).catch((error) => {
         console.log(error);
         this.isLoading = false;
